@@ -17,7 +17,7 @@
 	padding-bottom:20px;
 }
 
-.row:after	{/* clear fix hack: forces an element to clear it's children. works with the pseudo selector of */
+.row:after	{      /* clear fix hack: forces an element to clear it's children. works with the pseudo selector of */
 	content:"";
 	display:table;
 	clear:both;
