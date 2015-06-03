@@ -48,15 +48,7 @@ li {
 	text-align:center;
 	padding:.3125rem 1.25rem;
 }
-#shop {
-	width:120px;
-	height:28px;
-	padding:5px;
-	background: #000000;
-	text-align:center;
-	position:relative;
-}
-	
+
 #head{
 	width:100%;
 	height:84px;
@@ -64,14 +56,16 @@ li {
 }
 
 #hero	{	
-	background:#f6edd3 url("../imgs/roaster2.jpg") no-repeat right bottom;
+	background:#ffffff url("../imgs/hero1.jpg") no-repeat;
 	width:100%;
-	Height:570px;
+	height:570px;
 }
 #hero-top	{
 	width:100%;
 	height:314px;
 }
+
+/* BOTTOM HERO */
 #hero-bottom	{
 	font-size:1.25rem;
 	width:100%;
@@ -81,13 +75,28 @@ li {
 	
 }
 #call	{
+	
 	margin: 0 auto;
 	margin-top:50px;
+	height:85px;
+	width:330px;
 	
 }
+#shop {
+	width:120px;
+	margin-top:25px;
+	padding:5px;
+	background: #000000;
+	text-align:center;
+    float:left;
+
+}
+	
 p.uppercase	{
+	float:left;
 	text-transform:uppercase;
 }
+/*LOGO alternate
 #logo	{
 	background: url("../imgs/twin.png");
 	width: 324px;
@@ -95,7 +104,7 @@ p.uppercase	{
 	margin:0 auto;
 	margin-top: 116px;
 		}
-
+*/
 	
 #text-over	{
 	float:left;
